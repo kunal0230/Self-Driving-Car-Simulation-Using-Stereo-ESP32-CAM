@@ -1,3 +1,6 @@
+This repository contains code and data related to a project that is currently under review for publication. Due to intellectual property considerations and publication requirements, the source code and certain assets are not publicly available at this time.
+
+
 ```
 my_self_driving_sim/
 ├── carla_simulator/
