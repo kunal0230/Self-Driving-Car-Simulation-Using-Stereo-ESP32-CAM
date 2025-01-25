@@ -19,10 +19,10 @@ my_self_driving_sim/
 │
 ├── python/
 │   ├── env/                       # Virtual environment (e.g., conda or venv)
-│   ├── requirements.txt           # Python deps (opencv, carla, etc.)
+│   ├── requirements.txt           
 │   ├── scripts/
 │   │   ├── capture_stream.py      # Demo script to capture from ESP32 cams
-│   │   ├── data_collection.py     # If doing data capture for ML
+│   │   ├── data_collection.py     #  data capture for ML
 │   │   ├── model.py               # ML model definitions
 │   │   ├── inference.py           # Real-time inference and control
 │   │   ├── control_interface.py   # Utility functions to send commands to CARLA
@@ -35,7 +35,7 @@ my_self_driving_sim/
 │   ├── readme.md
 │   └── hardware_setup.md
 │
-└── .gitignore                     # If using git
+└── .gitignore                   
 
 
 
