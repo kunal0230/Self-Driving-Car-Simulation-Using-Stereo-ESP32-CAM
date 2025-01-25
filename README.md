@@ -33,3 +33,38 @@ my_self_driving_sim/
 │   └── hardware_setup.md
 │
 └── .gitignore                     # If using git
+
+
+
+
+
+
+
+```
+
+```
+                +-------------------------+
+                |   Windows PC (RTX3050) |
+                |-------------------------|
+                | - CARLA Simulator      |
+                | - Python (CV/ML)       |
+                | - Receives Camera Feeds|
+                | - Controls Carla via   |
+                |   Python API           |
+                +-----------+------------+
+                            |
+(Physical World)            | Ethernet/Wi-Fi
+   +----------------+       |
+   |   Monitor w/   | <-----+
+   |  CARLA Window  |
+   | (Full Screen)  |
+   +----------------+
+        ^     ^
+        |     |
+        |     +---- (ESP32-CAM #2)
+        |
+        +---------- (ESP32-CAM #1)
+
+
+
+
